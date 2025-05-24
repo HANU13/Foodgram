@@ -12,8 +12,6 @@ foodgram/
 └── README.md
 
 yaml
-Copy
-Edit
 
 ---
 
@@ -66,17 +64,14 @@ Edit
 1. Navigate to backend folder:
    ```bash
    cd foodgram-backend
-Install dependencies:
+   Install dependencies:
 
-bash
-Copy
-Edit
+```bash
 npm install
 Create .env file with variables:
 
-env
-Copy
-Edit
+
+```env
 PORT=5000
 MONGO_URI=your_mongo_connection_string
 JWT_SECRET=your_jwt_secret
@@ -85,30 +80,22 @@ AWS_SECRET_ACCESS_KEY=your_aws_secret_key
 AWS_BUCKET_NAME=your_s3_bucket_name
 Run the backend server:
 
-bash
-Copy
-Edit
+```bash
 npm start
 Frontend Setup
 Navigate to frontend folder:
 
-bash
-Copy
-Edit
+```bash
 cd foodgram-frontend
 Install dependencies:
 
-bash
-Copy
-Edit
+```bash
 npm install
 Configure API base URL in your API utility files (localhost or your deployed backend URL)
 
 Run the Expo app:
 
-bash
-Copy
-Edit
+```bash
 expo start
 Deployment
 Backend can be deployed on platforms like Heroku or AWS Elastic Beanstalk.
@@ -131,10 +118,7 @@ For questions or support, contact: your-email@example.com
 
 Happy cooking with FoodGram! 🍽️🍕🍜
 
-yaml
-Copy
-Edit
-
+```yaml
 ---
 
 If you want, I can also generate a simple **`package.json`** or any setup scripts next.  

@@ -12,6 +12,8 @@ foodgram/
 └── README.md
 
 yaml
+Copy
+Edit
 
 ---
 
@@ -67,10 +69,14 @@ yaml
 Install dependencies:
 
 bash
+Copy
+Edit
 npm install
 Create .env file with variables:
 
 env
+Copy
+Edit
 PORT=5000
 MONGO_URI=your_mongo_connection_string
 JWT_SECRET=your_jwt_secret
@@ -80,21 +86,29 @@ AWS_BUCKET_NAME=your_s3_bucket_name
 Run the backend server:
 
 bash
+Copy
+Edit
 npm start
 Frontend Setup
 Navigate to frontend folder:
 
 bash
+Copy
+Edit
 cd foodgram-frontend
 Install dependencies:
 
 bash
+Copy
+Edit
 npm install
 Configure API base URL in your API utility files (localhost or your deployed backend URL)
 
 Run the Expo app:
 
 bash
+Copy
+Edit
 expo start
 Deployment
 Backend can be deployed on platforms like Heroku or AWS Elastic Beanstalk.
@@ -110,15 +124,24 @@ Contributing
 Feel free to open issues or submit pull requests for improvements or bug fixes.
 
 License
-MIT License © [Hanu Koshti]
+MIT License © [Your Name]
 
 Contact
-For questions or support, contact: hanukoshti@gmail.com
+For questions or support, contact: your-email@example.com
 
 Happy cooking with FoodGram! 🍽️🍕🍜
+
+yaml
+Copy
+Edit
 
 ---
 
 If you want, I can also generate a simple **`package.json`** or any setup scripts next.  
 Just ask!
+
+
+
+
+
 
